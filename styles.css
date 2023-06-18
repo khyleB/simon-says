@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Unica One', cursive;
+  font-size: 4rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 15px;
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background: linear-gradient(to top right, #d6ff99, #ff2e85);
+  border: 0;
+  border-radius: 10rem 10rem 10rem 0;
+
+}
+
+.green {
+  background: linear-gradient(to top left, #d6ff99, #3cff00);
+  border-radius: 10rem 10rem 0 10rem;
+
+}
+
+.blue {
+  background: linear-gradient(to bottom right, #d6ff99, #3494fa);
+  border-radius: 0 10rem 10rem 10rem;
+}
+
+.yellow {
+  background: linear-gradient(to bottom left, #d6ff99, #ffbb00);
+  border-radius: 10rem 0 10rem 10rem;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background: linear-gradient(to bottom right, #d6ff99, #d6ff99);
+}
+
+@media screen and (max-width:1143px) {
+
+  .btn {
+    width: 200px;
+    height: 200px;
+  }
+
+}
+
+@media screen and (max-width:943px) {
+
+  .btn {
+    width: 125px;
+    height: 125px;
+  }
+
+}
+
+@media screen and (max-width:643px) {
+
+  .btn {
+    border-radius: 10rem;
+  }
+
+}
