@@ -1,4 +1,4 @@
-[![banner](Simon-Banner.png)](https://khyleb.github.io/simon-says/)
+[![banner](Simon_Banner.png)](https://khyleb.github.io/simon-says/)
 
 ## Description
 A simple Simon Says game that I used to better understand basic JavaScript & jQuery elements early in my coding journey. Both are used intermittently in this project. I also used it as an early experiment in how to format a game using CSS that would allow it to play easily on desktop and mobile.
